@@ -14,7 +14,7 @@ driver = webdriver.Chrome(service=service)
 driver.get("https://www.python.org")
 
 #LOCALIZADORES
-#find_element devuelve un elemento, mientras que fiend_elements devuelve una lista de elementos
+#find_element devuelve un elemento, mientras que find_elements devuelve una lista de elementos
 
 element1 = driver.find_element(By.ID, 'mainnav')
 elements1 = driver.find_elements(By.ID, 'mainnav')
